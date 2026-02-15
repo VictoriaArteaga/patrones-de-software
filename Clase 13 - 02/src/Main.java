@@ -5,7 +5,10 @@ public class Main {
         Animals animal1 = Animals.getAnimal();
         Animals animal2 = Animals.getAnimal();
 
-        System.out.println("Animal 1: " + animal1);
-        System.out.println("Animal 2: " + animal2);
+        animal1.printAnimal("Jaguar");
+        animal2.printAnimal("Gato");
+
+
+
     }
 }
